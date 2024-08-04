@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#81d4fa"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="411dp"
+        android:layout_height="68dp"
+        android:layout_margin="5dp"
+        android:fontFamily="@font/adamina"
+        android:gravity="center"
+        android:text="WelTec Volunteer Database"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp"></TextView>
+
+    <EditText
+        android:id="@+id/et_StudentID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:fontFamily="@font/adamina"
+        android:hint="Enter Student ID"
+        android:inputType="number"
+        android:textColor="@color/colorPrimary"></EditText>
+
+    <EditText
+        android:id="@+id/et_StudentName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Enter Student Name"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="@font/adamina"/>
+
+    <EditText
+        android:id="@+id/et_StudentEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Enter Student Email"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="@font/adamina"/>
+
+    <EditText
+        android:id="@+id/et_StudentContactNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:fontFamily="@font/adamina"
+        android:hint="Enter Student Contact Number"
+        android:inputType="number"
+        android:textColor="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/bt_addData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@color/colorPrimary"
+        android:text="Add New Volunteer"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/bt_viewData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@color/colorPrimary"
+        android:text="View Available Volunteers"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
